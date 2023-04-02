@@ -1,0 +1,45 @@
+{
+  "name": "next-template",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "next dev",
+    "build": "next build",
+    "out:start": "next start",
+    "lint": "eslint . --max-warnings=0 --ext .ts,.tsx",
+    "prepare": "husky install",
+    "plop": "plop"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.15",
+    "@types/node": "18.15.11",
+    "@types/react": "18.0.31",
+    "@types/react-dom": "18.0.11",
+    "add": "^2.0.6",
+    "eslint": "8.37.0",
+    "eslint-config-next": "13.2.4",
+    "next": "13.2.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-toastify": "^9.1.2",
+    "socket.io": "^4.6.1",
+    "socket.io-client": "^4.6.1",
+    "typescript": "5.0.3",
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.5.1",
+    "@commitlint/config-conventional": "^17.4.4",
+    "@typescript-eslint/eslint-plugin": "^5.57.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.3",
+    "inquirer-directory": "^2.2.0",
+    "lint-staged": "^13.2.0",
+    "plop": "^3.1.2",
+    "prettier": "^2.8.7"
+  }
+}
